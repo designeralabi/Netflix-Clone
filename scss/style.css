@@ -204,7 +204,7 @@ body {
 }
 
 .faq-card .faq-list .closed {
-  display: none;
+  display: block;
 }
 
 .faq-card .faq-list li {
@@ -229,6 +229,18 @@ body {
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
+}
+
+.faq-card .faq-answer {
+  background-color: #333;
+  padding: 14.5px 20px;
+  display: none;
+}
+
+.faq-card .faq-answer p {
+  font-weight: 100;
+  line-height: 1.5rem;
+  margin: 10px 0;
 }
 
 .story-membership {
